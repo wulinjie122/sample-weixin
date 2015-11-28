@@ -34,8 +34,8 @@ public class IndexController {
 
 	@RequestMapping("checkSignature")
 	public void checkSignature(HttpServletRequest request, HttpServletResponse response) throws IOException{
-		logger.info("¿ªÊ¼½ÓÈëÎ¢ĞÅ·şÎñÆ÷......");
-		//½ÓÈëÎ¢ĞÅ·şÎñÆ÷
+		logger.info("å¼€å§‹æ¥å…¥å¾®ä¿¡æœåŠ¡å™¨......");
+		//æ¥å…¥å¾®ä¿¡æœåŠ¡å™¨
 		String sign = request.getParameter("signature");
 		String timestamp = request.getParameter("timestamp");
 		String nonce = request.getParameter("nonce");
@@ -62,12 +62,12 @@ public class IndexController {
 
 		String temp =DigestUtil.SHA1(params.get(0) + params.get(1) + params.get(2));
 
-		logger.info("sha1¼ÓÃÜ£º" + temp);
+		logger.info("sha1åŠ å¯†ï¼š" + temp);
 
 		if (temp.equals(sign)) {
 			response.getWriter().write(echostr);
 		} else {
-			//´¦Àí½ÓÊÕÏûÏ¢
+			//å¤„ç†æ¥æ”¶æ¶ˆæ¯
 		}
 	}
 

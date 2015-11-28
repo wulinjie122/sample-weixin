@@ -1,0 +1,3 @@
+[submodule "lib/lib_a"]
+	path = lib/lib_a
+	url = https://github.com/wulinjie122/weixin4l.git
