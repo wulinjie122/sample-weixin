@@ -1,4 +1,4 @@
-package site.eris.test.advice;
+package site.eris.advice;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.AbstractJsonpResponseBodyAdvice;

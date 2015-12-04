@@ -1,4 +1,4 @@
-package site.eris.test;
+package site.eris;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

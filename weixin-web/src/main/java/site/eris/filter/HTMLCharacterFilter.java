@@ -1,4 +1,4 @@
-package site.eris.test.filter;
+package site.eris.filter;
 import java.io.IOException;
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;

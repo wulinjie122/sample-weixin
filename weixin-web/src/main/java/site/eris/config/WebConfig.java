@@ -1,4 +1,4 @@
-package site.eris.test.config;
+package site.eris.config;
 
 import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletContainer;
 import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import org.springframework.http.HttpStatus;
-import site.eris.test.filter.HTMLCharacterFilter;
+import site.eris.filter.HTMLCharacterFilter;
 
 /**
  * Created by wulinjie on 2015/11/26.

@@ -1,4 +1,4 @@
-package site.eris.test.config;
+package site.eris.config;
 
 import com.foxinmy.weixin4j.api.BaseApi;
 import com.foxinmy.weixin4j.exception.WeixinException;

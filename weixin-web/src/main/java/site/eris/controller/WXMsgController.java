@@ -1,4 +1,4 @@
-package site.eris.test.controller;
+package site.eris.controller;
 
 import com.foxinmy.weixin4j.mp.api.OauthApi;
 import org.slf4j.Logger;

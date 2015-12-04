@@ -1,4 +1,4 @@
-package site.eris.test;
+package site.eris;
 
 import com.foxinmy.weixin4j.exception.WeixinException;
 import com.foxinmy.weixin4j.handler.DebugMessageHandler;

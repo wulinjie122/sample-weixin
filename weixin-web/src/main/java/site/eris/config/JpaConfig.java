@@ -1,4 +1,4 @@
-package site.eris.test.config;
+package site.eris.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;

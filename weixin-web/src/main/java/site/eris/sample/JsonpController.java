@@ -1,4 +1,4 @@
-package site.eris.test.sample;
+package site.eris.sample;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
