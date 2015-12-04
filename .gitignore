@@ -1,0 +1,9 @@
+.idea
+/weixin-web/*.iml
+target
+.project
+/weixin-domain/*.iml
+/weixin-service/*.iml
+/weixin-parent.iml
+/weixin-web/.classpath
+.settings

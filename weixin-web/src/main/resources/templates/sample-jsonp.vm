@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript">
+        function functionCall(data) {
+            console.log('script tag result...');
+            console.log(data.bookName);
+            console.log(data.writer);
+
+        }
+
+        $.ajax({
+            url:'http://wulinjie122.imwork.net/sample-jsonp/book1',
+            jsonp: "callback",
+            dataType: 'jsonp',
+            success: function(data ){
+                console.log('ajax result...');
+                console.log(data.bookName);
+                console.log(data.writer);
+
+            }
+        });
+    </script>
+    <!--Using @ResponseBody -->
+    <script src="http://wulinjie122.imwork.net/sample-jsonp/book2?callback=functionCall" type="text/javascript"> </script>
+</head>
+<body>
+    <h1>测试跨域请求JSONP......</h1>
+</body>
+</html>
